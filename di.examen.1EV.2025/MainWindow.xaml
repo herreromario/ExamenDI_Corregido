@@ -1,0 +1,374 @@
+﻿<Window x:Class="di.examen._1EV._2025.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:di.examen._1EV._2025"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        Title="GESTIÓN JARDINERIA" 
+        Height="800" 
+        Width="1450">
+    <Grid>
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="35" />
+            <RowDefinition Height="35" />
+            <RowDefinition Height="190" />
+
+            <RowDefinition Height="*" />
+
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            
+            <ColumnDefinition Width="105" />
+            <ColumnDefinition Width="*" />
+            
+        </Grid.ColumnDefinitions>
+
+        <DockPanel Grid.Row="0" Grid.Column="1">
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+
+                <Button Height="35"
+                        Width="55" 
+                        Background="#05d79e"
+                        x:Name="Minimizar"
+                        Click="Minimizar_Click">
+                    <Image Source="/Recursos/Iconos/minimizar.png"
+                           Height="20"
+                           Margin="0,10,0,0" />
+                </Button>
+
+                <Button Height="35"
+                        Width="55" 
+                        Background="#6266f7"
+                        x:Name="Maximizar"
+                        Click="Maximizar_Click">
+                    <Image Source="/Recursos/Iconos/maximizar.png"
+                           Height="20" />
+                </Button>
+
+                <Button Height="35" 
+                        Width="55" 
+                        Background="#ff5a82"
+                        x:Name="Cerrar"
+                        Click="Cerrar_Click">
+                    <Image Source="/Recursos/Iconos/cerrar.png" 
+                           Height="20" />
+                </Button>
+
+            </StackPanel>
+
+        </DockPanel>
+
+        <Grid Grid.RowSpan="4" Grid.Column="0">
+            
+            <StackPanel Width="105" Orientation="Vertical" Background="#6266f7" HorizontalAlignment="Left">
+
+                <Button Height="50" Width="50" Background="Transparent" BorderBrush="Transparent" Margin="15">
+                    <Image Source="/Recursos/Iconos/dashboard.png" />
+                </Button>
+
+                <Button Height="50" Width="50" Background="Transparent" BorderBrush="Transparent" Margin="15">
+                    <Image Source="/Recursos/Iconos/oficina.png" />
+                </Button>
+
+                <Button Height="50" Width="50" Background="Transparent" BorderBrush="Transparent" Margin="15">
+                    <Image Source="/Recursos/Iconos/admon.png" />
+                </Button>
+
+                <Button Height="50" Width="50" Background="Transparent" BorderBrush="Transparent" Margin="15">
+                    <Image Source="/Recursos/Iconos/pedidos.png" />
+                </Button>
+
+                <Button Height="50" Width="50" Background="Transparent" BorderBrush="Transparent" Margin="15">
+                    <Image Source="/Recursos/Iconos/producto.png" />
+                </Button>
+
+                <Button Height="50" Width="50" Background="Transparent" BorderBrush="Transparent" Margin="15">
+                    <Image Source="/Recursos/Iconos/cliente.png" />
+                </Button>
+
+                <Button Height="50" Width="50" Background="Transparent" BorderBrush="Transparent" Margin="15">
+                    <Image Source="/Recursos/Iconos/empleado.png" />
+                </Button>
+
+                <Button Height="50" Width="50" Background="Transparent" BorderBrush="Transparent" VerticalAlignment="Bottom">
+                    <Image Source="/Recursos/Iconos/salir.png" />
+                </Button>
+
+            </StackPanel>
+            
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="1">
+            
+            <TextBlock Text="DASHBOARD" FontSize="25" FontWeight="Bold" Margin="15,0,0,0"/>
+            
+        </Grid>
+
+        <Grid Grid.Row="2" Grid.Column="1">
+           
+            <Grid.ColumnDefinitions>
+                
+                <ColumnDefinition Width="25*" />
+                <ColumnDefinition Width="25*" />
+                <ColumnDefinition Width="25*" />
+                <ColumnDefinition Width="25*" />
+                
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="0" Background="#6266f7" Margin="15,30,30,30">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="35" />
+                    <RowDefinition Height="*"  />
+                    <RowDefinition Height="35" />
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="5*" />
+                        <ColumnDefinition Width="5*" />
+                    </Grid.ColumnDefinitions>
+                </Grid>
+
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="5*" />
+                        <ColumnDefinition Width="5*" />
+                    </Grid.ColumnDefinitions>
+                </Grid>
+
+                <Grid Grid.Row="0">
+                    <TextBlock Text="Total Pedidos" FontSize="20" Foreground="White" VerticalAlignment="Center" Margin="10,0,0,0"  />
+                </Grid>
+
+                <Grid Grid.Row="1" Margin="10,5,0,0">
+                    <Image Source="/Recursos/Iconos/pedidos.png"
+                           Width="45"
+                           HorizontalAlignment="Left"/>
+
+                    <TextBlock Text="234" FontSize="30" FontWeight="Bold" Foreground="White" 
+                               HorizontalAlignment="Right" 
+                               VerticalAlignment="Center" 
+                               Margin="0,0,15,0"/>
+                </Grid>
+
+                <Grid Grid.Row="2">
+                    <Grid Grid.Column = "0">
+                        <TextBlock Text="Por mes" FontSize="20" Foreground="White" 
+                                   VerticalAlignment="Center" 
+                                   Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <Grid Grid.Row="2">
+                    <Grid Grid.Column = "1">
+                        <TextBlock Text="102" FontSize="20" Foreground="White" 
+                                   VerticalAlignment="Center"
+                                   HorizontalAlignment="Right"
+                                   Margin="0,0,15,0"/>
+                    </Grid>
+                </Grid>
+
+            </Grid>
+
+            <Grid Grid.Column="1" Background="#05d79e" Margin="15,30,30,30">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="35" />
+                    <RowDefinition Height="*"  />
+                    <RowDefinition Height="35" />
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="5*" />
+                        <ColumnDefinition Width="5*" />
+                    </Grid.ColumnDefinitions>
+                </Grid>
+
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="5*" />
+                        <ColumnDefinition Width="5*" />
+                    </Grid.ColumnDefinitions>
+                </Grid>
+
+                <Grid Grid.Row="0">
+                    <TextBlock Text="Clientes registrados" FontSize="20" Foreground="White" VerticalAlignment="Center" Margin="10,0,0,0"  />
+                </Grid>
+
+                <Grid Grid.Row="1" Margin="10,5,0,0">
+                    <Image Source="/Recursos/Iconos/cliente.png"
+                           Width="45"
+                           HorizontalAlignment="Left"/>
+
+                    <TextBlock Text="45" FontSize="30" FontWeight="Bold" Foreground="White" 
+                               HorizontalAlignment="Right" 
+                               VerticalAlignment="Center" 
+                               Margin="0,0,15,0"/>
+                </Grid>
+
+                <Grid Grid.Row="2">
+                    <Grid Grid.Column = "0">
+                        <TextBlock Text="Clientes contactados" FontSize="20" Foreground="White" 
+                                   VerticalAlignment="Center" 
+                                   Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <Grid Grid.Row="2">
+                    <Grid Grid.Column = "1">
+                        <TextBlock Text="167" FontSize="20" Foreground="White" 
+                                   VerticalAlignment="Center"
+                                   HorizontalAlignment="Right"
+                                   Margin="0,0,15,0"/>
+                    </Grid>
+                </Grid>
+
+            </Grid>
+
+            
+            <Grid Grid.Column="2" Background="#807fff" Margin="15,30,30,30">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="35" />
+                    <RowDefinition Height="*"  />
+                    <RowDefinition Height="35" />
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="5*" />
+                        <ColumnDefinition Width="5*" />
+                    </Grid.ColumnDefinitions>
+                </Grid>
+
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="5*" />
+                        <ColumnDefinition Width="5*" />
+                    </Grid.ColumnDefinitions>
+                </Grid>
+
+                <Grid Grid.Row="0">
+                    <TextBlock Text="Stock de Productos" FontSize="20" Foreground="White" VerticalAlignment="Center" Margin="10,0,0,0"  />
+                </Grid>
+
+                <Grid Grid.Row="1" Margin="10,5,0,0">
+                    <Image Source="/Recursos/Iconos/producto.png"
+                           Width="45"
+                           HorizontalAlignment="Left"/>
+
+                    <TextBlock Text="1456" FontSize="30" FontWeight="Bold" Foreground="White" 
+                               HorizontalAlignment="Right" 
+                               VerticalAlignment="Center" 
+                               Margin="0,0,15,0"/>
+                </Grid>
+
+                <Grid Grid.Row="2">
+                    <Grid Grid.Column = "0">
+                        <TextBlock Text="Unidades por mes" FontSize="20" Foreground="White" 
+                                   VerticalAlignment="Center" 
+                                   Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <Grid Grid.Row="2">
+                    <Grid Grid.Column = "1">
+                        <TextBlock Text="563" FontSize="20" Foreground="White" 
+                                   VerticalAlignment="Center"
+                                   HorizontalAlignment="Right"
+                                   Margin="0,0,15,0"/>
+                    </Grid>
+                </Grid>
+
+            </Grid>
+
+            <Grid Grid.Column="3" Background="#ff5a82" Margin="15,30,30,30">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="35" />
+                    <RowDefinition Height="*"  />
+                    <RowDefinition Height="35" />
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="5*" />
+                        <ColumnDefinition Width="5*" />
+                    </Grid.ColumnDefinitions>
+                </Grid>
+
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="5*" />
+                        <ColumnDefinition Width="5*" />
+                    </Grid.ColumnDefinitions>
+                </Grid>
+
+                <Grid Grid.Row="0">
+                    <TextBlock Text="Número de oficinas" FontSize="20" Foreground="White" VerticalAlignment="Center" Margin="10,0,0,0"  />
+                </Grid>
+
+                <Grid Grid.Row="1" Margin="10,5,0,0">
+                    <Image Source="/Recursos/Iconos/oficina.png"
+                           Width="45"
+                           HorizontalAlignment="Left"/>
+
+                    <TextBlock Text="23" FontSize="30" FontWeight="Bold" Foreground="White" 
+                               HorizontalAlignment="Right" 
+                               VerticalAlignment="Center" 
+                               Margin="0,0,15,0"/>
+                </Grid>
+
+                <Grid Grid.Row="2">
+                    <Grid Grid.Column = "0">
+                        <TextBlock Text="En el país" FontSize="20" Foreground="White" 
+                                   VerticalAlignment="Center" 
+                                   Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <Grid Grid.Row="2">
+                    <Grid Grid.Column = "1">
+                        <TextBlock Text="10" FontSize="20" Foreground="White" 
+                                   VerticalAlignment="Center"
+                                   HorizontalAlignment="Right"
+                                   Margin="0,0,15,0"/>
+                    </Grid>
+                </Grid>
+
+            </Grid>
+
+        </Grid>
+
+        <Grid Grid.Row="3" Grid.Column="1">
+            
+            <Grid.ColumnDefinitions>
+                
+                <ColumnDefinition Width="5*" />
+                <ColumnDefinition Width="5*" />
+                
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="0">
+                <Image Source="/Recursos/Imagenes/jardineria.png" Width="800" Height="500" Margin="15,15,30,0" VerticalAlignment="Top" HorizontalAlignment="Center" />
+            </Grid>
+
+            <Grid Grid.Column="1">
+                <Image Source="/Recursos/Imagenes/grafico.jpg" Width="800" Height="500" Margin="15,15,30,0" VerticalAlignment="Top" />
+            </Grid>
+
+        </Grid>
+        
+        
+
+    </Grid>
+</Window>
+
