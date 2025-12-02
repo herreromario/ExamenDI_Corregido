@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using di.examen._1EV._2025.Frontend.Dialogos;
+using System.Windows;
 
 namespace di.examen._1EV._2025
 {
@@ -32,6 +33,12 @@ namespace di.examen._1EV._2025
         private void Minimizar_Click(object sender, RoutedEventArgs e)
         {
             this.WindowState = WindowState.Minimized;
+        }
+
+        private void Empleado_Click(object sender, RoutedEventArgs e)
+        {
+            var ventana = new DialogoGestionEmpleados();
+            ventana.ShowDialog();
         }
     }
 }

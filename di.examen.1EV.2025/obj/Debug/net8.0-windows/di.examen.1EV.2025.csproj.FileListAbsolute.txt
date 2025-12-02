@@ -351,3 +351,6 @@ C:\Users\alway\OneDrive\Escritorio\di.examen.1EV.2025\di.examen.1EV.2025\obj\Deb
 C:\Users\alway\OneDrive\Escritorio\di.examen.1EV.2025\di.examen.1EV.2025\obj\Debug\net8.0-windows\di.examen.1EV.2025.pdb
 C:\Users\alway\OneDrive\Escritorio\di.examen.1EV.2025\di.examen.1EV.2025\obj\Debug\net8.0-windows\di.examen.1EV.2025.genruntimeconfig.cache
 C:\Users\alway\OneDrive\Escritorio\di.examen.1EV.2025\di.examen.1EV.2025\obj\Debug\net8.0-windows\ref\di.examen.1EV.2025.dll
+C:\Users\alway\OneDrive\Escritorio\di.examen.1EV.2025\di.examen.1EV.2025\obj\Debug\net8.0-windows\di.examen.1EV.2025.sourcelink.json
+C:\Users\alway\OneDrive\Escritorio\di.examen.1EV.2025\di.examen.1EV.2025\obj\Debug\net8.0-windows\Frontend\Dialogos\DialogoGestionEmpleados.g.cs
+C:\Users\alway\OneDrive\Escritorio\di.examen.1EV.2025\di.examen.1EV.2025\obj\Debug\net8.0-windows\Frontend\Dialogos\DialogoGestionEmpleados.baml

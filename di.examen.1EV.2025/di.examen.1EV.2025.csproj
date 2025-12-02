@@ -28,7 +28,6 @@
   <ItemGroup>
     <Folder Include="Backend\Modelos\" />
     <Folder Include="Frontend\ControlUsuario\" />
-    <Folder Include="Frontend\Dialogos\" />
   </ItemGroup>
 
   <ItemGroup>

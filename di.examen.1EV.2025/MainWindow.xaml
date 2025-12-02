@@ -64,45 +64,56 @@
 
         </DockPanel>
 
-        <Grid Grid.RowSpan="4" Grid.Column="0">
-            
-            <StackPanel Width="105" Orientation="Vertical" Background="#6266f7" HorizontalAlignment="Left">
+        <Grid Grid.RowSpan="4" Grid.Column="0" Background="#6266f7" HorizontalAlignment="Left">
 
-                <Button Height="50" Width="50" Background="Transparent" BorderBrush="Transparent" Margin="15">
-                    <Image Source="/Recursos/Iconos/dashboard.png" />
-                </Button>
+            <Grid.RowDefinitions>
 
-                <Button Height="50" Width="50" Background="Transparent" BorderBrush="Transparent" Margin="15">
-                    <Image Source="/Recursos/Iconos/oficina.png" />
-                </Button>
+                <RowDefinition Height="80" />
+                <RowDefinition Height="80" />
+                <RowDefinition Height="80" />
+                <RowDefinition Height="80" />
+                <RowDefinition Height="80" />
+                <RowDefinition Height="80" />
+                <RowDefinition Height="80" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="80" />
 
-                <Button Height="50" Width="50" Background="Transparent" BorderBrush="Transparent" Margin="15">
-                    <Image Source="/Recursos/Iconos/admon.png" />
-                </Button>
+            </Grid.RowDefinitions>
 
-                <Button Height="50" Width="50" Background="Transparent" BorderBrush="Transparent" Margin="15">
-                    <Image Source="/Recursos/Iconos/pedidos.png" />
-                </Button>
+            <Button Grid.Row ="0" Height="50" Width="50" Background="Transparent" BorderBrush="Transparent" Margin="15">
+                <Image Source="/Recursos/Iconos/dashboard.png" />
+            </Button>
 
-                <Button Height="50" Width="50" Background="Transparent" BorderBrush="Transparent" Margin="15">
-                    <Image Source="/Recursos/Iconos/producto.png" />
-                </Button>
+            <Button Grid.Row ="1" Height="50" Width="50" Background="Transparent" BorderBrush="Transparent" Margin="15">
+                <Image Source="/Recursos/Iconos/oficina.png" />
+            </Button>
 
-                <Button Height="50" Width="50" Background="Transparent" BorderBrush="Transparent" Margin="15">
-                    <Image Source="/Recursos/Iconos/cliente.png" />
-                </Button>
+            <Button Grid.Row ="2" Height="50" Width="50" Background="Transparent" BorderBrush="Transparent" Margin="15">
+                <Image Source="/Recursos/Iconos/admon.png" />
+            </Button>
 
-                <Button Height="50" Width="50" Background="Transparent" BorderBrush="Transparent" Margin="15">
-                    <Image Source="/Recursos/Iconos/empleado.png" />
-                </Button>
+            <Button Grid.Row ="3" Height="50" Width="50" Background="Transparent" BorderBrush="Transparent" Margin="15">
+                <Image Source="/Recursos/Iconos/pedidos.png" />
+            </Button>
 
-                <Button Height="50" Width="50" Background="Transparent" BorderBrush="Transparent" VerticalAlignment="Bottom">
-                    <Image Source="/Recursos/Iconos/salir.png" />
-                </Button>
+            <Button Grid.Row ="4" Height="50" Width="50" Background="Transparent" BorderBrush="Transparent" Margin="15">
+                <Image Source="/Recursos/Iconos/producto.png" />
+            </Button>
 
-            </StackPanel>
+            <Button Grid.Row ="5" Height="50" Width="50" Background="Transparent" BorderBrush="Transparent" Margin="15">
+                <Image Source="/Recursos/Iconos/cliente.png" />
+            </Button>
+
+            <Button x:Name="Empleado" Click="Empleado_Click" Grid.Row ="6" Height="50" Width="50" Background="Transparent" BorderBrush="Transparent" Margin="15">
+                <Image Source="/Recursos/Iconos/empleado.png" />
+            </Button>
+
+            <Button Grid.Row ="8" Height="50" Width="50" Background="Transparent" BorderBrush="Transparent" VerticalAlignment="Bottom">
+                <Image Source="/Recursos/Iconos/salir.png" />
+            </Button>
             
         </Grid>
+        
 
         <Grid Grid.Row="1" Grid.Column="1">
             
@@ -352,17 +363,17 @@
             
             <Grid.ColumnDefinitions>
                 
-                <ColumnDefinition Width="5*" />
-                <ColumnDefinition Width="5*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
                 
             </Grid.ColumnDefinitions>
 
             <Grid Grid.Column="0">
-                <Image Source="/Recursos/Imagenes/jardineria.png" Width="800" Height="500" Margin="15,15,30,0" VerticalAlignment="Top" HorizontalAlignment="Center" />
+                <Image Source="/Recursos/Imagenes/jardineria.png" Margin="15,15,30,0" VerticalAlignment="Center" HorizontalAlignment="Center" />
             </Grid>
 
             <Grid Grid.Column="1">
-                <Image Source="/Recursos/Imagenes/grafico.jpg" Width="800" Height="500" Margin="15,15,30,0" VerticalAlignment="Top" />
+                <Image Source="/Recursos/Imagenes/grafico.jpg" Margin="15,15,30,0" VerticalAlignment="Top" HorizontalAlignment="Center" />
             </Grid>
 
         </Grid>
