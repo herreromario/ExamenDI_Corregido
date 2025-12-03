@@ -360,12 +360,12 @@
         </Grid>
 
         <Grid Grid.Row="3" Grid.Column="1">
-            
+
             <Grid.ColumnDefinitions>
-                
+
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
-                
+
             </Grid.ColumnDefinitions>
 
             <Grid Grid.Column="0">
@@ -377,8 +377,6 @@
             </Grid>
 
         </Grid>
-        
-        
 
     </Grid>
 </Window>

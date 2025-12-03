@@ -36,4 +36,10 @@ public partial class Oficina
 
     [InverseProperty("CodigoOficinaNavigation")]
     public virtual ICollection<Empleado> Empleados { get; set; } = new List<Empleado>();
+
+    public override string ToString()
+    {
+        return Ciudad;
+    }
+
 }
