@@ -96,7 +96,7 @@
                 <Image Source="/Recursos/Iconos/pedidos.png" />
             </Button>
 
-            <Button Grid.Row ="4" Height="50" Width="50" Background="Transparent" BorderBrush="Transparent" Margin="15">
+            <Button x:Name="Producto" Click="Producto_Click" Grid.Row ="4" Height="50" Width="50" Background="Transparent" BorderBrush="Transparent" Margin="15">
                 <Image Source="/Recursos/Iconos/producto.png" />
             </Button>
 

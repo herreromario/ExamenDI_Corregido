@@ -40,5 +40,11 @@ namespace di.examen._1EV._2025
             var ventana = new DialogoGestionEmpleados();
             ventana.ShowDialog();
         }
+
+        private void Producto_Click(object sender, RoutedEventArgs e)
+        {
+            var ventana = new DialogoGestionProductos();
+            ventana.ShowDialog();
+        }
     }
 }

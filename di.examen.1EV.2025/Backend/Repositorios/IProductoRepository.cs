@@ -8,7 +8,6 @@ namespace di.examen._1EV._2025.Backend.Repositorios
     /// </summary>
     public interface IProductoRepository : IGenericRepository<Producto>
     {
-        // Añade aquí métodos específicos de Producto si los necesitas.
-        // Ejemplo: Task<IEnumerable<Producto>> GetByCategoriaAsync(string categoria);
+        Task<bool> CodigoProductoExisteAsync(string codigoProducto);
     }
 }

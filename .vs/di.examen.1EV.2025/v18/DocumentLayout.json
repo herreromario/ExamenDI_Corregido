@@ -3,32 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\alway\\OneDrive\\Escritorio\\di.examen.1EV.2025\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FD0BF328-3055-4B57-8E63-5931999B74AB}|di.examen.1EV.2025\\di.examen.1EV.2025.csproj|c:\\users\\alway\\onedrive\\escritorio\\di.examen.1ev.2025\\di.examen.1ev.2025\\frontend\\dialogos\\dialogogestionproductos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD0BF328-3055-4B57-8E63-5931999B74AB}|di.examen.1EV.2025\\di.examen.1EV.2025.csproj|solutionrelative:di.examen.1ev.2025\\frontend\\dialogos\\dialogogestionproductos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FD0BF328-3055-4B57-8E63-5931999B74AB}|di.examen.1EV.2025\\di.examen.1EV.2025.csproj|c:\\users\\alway\\onedrive\\escritorio\\di.examen.1ev.2025\\di.examen.1ev.2025\\frontend\\dialogos\\dialogogestionempleados.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD0BF328-3055-4B57-8E63-5931999B74AB}|di.examen.1EV.2025\\di.examen.1EV.2025.csproj|solutionrelative:di.examen.1ev.2025\\frontend\\dialogos\\dialogogestionempleados.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD0BF328-3055-4B57-8E63-5931999B74AB}|di.examen.1EV.2025\\di.examen.1EV.2025.csproj|c:\\users\\alway\\onedrive\\escritorio\\di.examen.1ev.2025\\di.examen.1ev.2025\\backend\\modelos\\oficina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD0BF328-3055-4B57-8E63-5931999B74AB}|di.examen.1EV.2025\\di.examen.1EV.2025.csproj|solutionrelative:di.examen.1ev.2025\\backend\\modelos\\oficina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD0BF328-3055-4B57-8E63-5931999B74AB}|di.examen.1EV.2025\\di.examen.1EV.2025.csproj|c:\\users\\alway\\onedrive\\escritorio\\di.examen.1ev.2025\\di.examen.1ev.2025\\frontend\\dialogos\\dialogogestionproductos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FD0BF328-3055-4B57-8E63-5931999B74AB}|di.examen.1EV.2025\\di.examen.1EV.2025.csproj|solutionrelative:di.examen.1ev.2025\\frontend\\dialogos\\dialogogestionproductos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD0BF328-3055-4B57-8E63-5931999B74AB}|di.examen.1EV.2025\\di.examen.1EV.2025.csproj|c:\\users\\alway\\onedrive\\escritorio\\di.examen.1ev.2025\\di.examen.1ev.2025\\backend\\modelos\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD0BF328-3055-4B57-8E63-5931999B74AB}|di.examen.1EV.2025\\di.examen.1EV.2025.csproj|solutionrelative:di.examen.1ev.2025\\backend\\modelos\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD0BF328-3055-4B57-8E63-5931999B74AB}|di.examen.1EV.2025\\di.examen.1EV.2025.csproj|c:\\users\\alway\\onedrive\\escritorio\\di.examen.1ev.2025\\di.examen.1ev.2025\\backend\\repositorios\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD0BF328-3055-4B57-8E63-5931999B74AB}|di.examen.1EV.2025\\di.examen.1EV.2025.csproj|solutionrelative:di.examen.1ev.2025\\backend\\repositorios\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD0BF328-3055-4B57-8E63-5931999B74AB}|di.examen.1EV.2025\\di.examen.1EV.2025.csproj|c:\\users\\alway\\onedrive\\escritorio\\di.examen.1ev.2025\\di.examen.1ev.2025\\frontend\\dialogos\\dialogogestionempleados.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FD0BF328-3055-4B57-8E63-5931999B74AB}|di.examen.1EV.2025\\di.examen.1EV.2025.csproj|solutionrelative:di.examen.1ev.2025\\frontend\\dialogos\\dialogogestionempleados.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD0BF328-3055-4B57-8E63-5931999B74AB}|di.examen.1EV.2025\\di.examen.1EV.2025.csproj|c:\\users\\alway\\onedrive\\escritorio\\di.examen.1ev.2025\\di.examen.1ev.2025\\backend\\modelos\\jardineriacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD0BF328-3055-4B57-8E63-5931999B74AB}|di.examen.1EV.2025\\di.examen.1EV.2025.csproj|solutionrelative:di.examen.1ev.2025\\backend\\modelos\\jardineriacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD0BF328-3055-4B57-8E63-5931999B74AB}|di.examen.1EV.2025\\di.examen.1EV.2025.csproj|c:\\users\\alway\\onedrive\\escritorio\\di.examen.1ev.2025\\di.examen.1ev.2025\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FD0BF328-3055-4B57-8E63-5931999B74AB}|di.examen.1EV.2025\\di.examen.1EV.2025.csproj|solutionrelative:di.examen.1ev.2025\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD0BF328-3055-4B57-8E63-5931999B74AB}|di.examen.1EV.2025\\di.examen.1EV.2025.csproj|c:\\users\\alway\\onedrive\\escritorio\\di.examen.1ev.2025\\di.examen.1ev.2025\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD0BF328-3055-4B57-8E63-5931999B74AB}|di.examen.1EV.2025\\di.examen.1EV.2025.csproj|solutionrelative:di.examen.1ev.2025\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD0BF328-3055-4B57-8E63-5931999B74AB}|di.examen.1EV.2025\\di.examen.1EV.2025.csproj|c:\\users\\alway\\onedrive\\escritorio\\di.examen.1ev.2025\\di.examen.1ev.2025\\backend\\modelos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD0BF328-3055-4B57-8E63-5931999B74AB}|di.examen.1EV.2025\\di.examen.1EV.2025.csproj|solutionrelative:di.examen.1ev.2025\\backend\\modelos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,90 +78,66 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\alway\\OneDrive\\Escritorio\\di.examen.1EV.2025\\di.examen.1EV.2025\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "di.examen.1EV.2025\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\alway\\OneDrive\\Escritorio\\di.examen.1EV.2025\\di.examen.1EV.2025\\MainWindow.xaml",
-              "RelativeToolTip": "di.examen.1EV.2025\\MainWindow.xaml",
+              "DocumentIndex": 2,
+              "Title": "DialogoGestionProductos.xaml",
+              "DocumentMoniker": "C:\\Users\\alway\\OneDrive\\Escritorio\\di.examen.1EV.2025\\di.examen.1EV.2025\\Frontend\\Dialogos\\DialogoGestionProductos.xaml",
+              "RelativeDocumentMoniker": "di.examen.1EV.2025\\Frontend\\Dialogos\\DialogoGestionProductos.xaml",
+              "ToolTip": "C:\\Users\\alway\\OneDrive\\Escritorio\\di.examen.1EV.2025\\di.examen.1EV.2025\\Frontend\\Dialogos\\DialogoGestionProductos.xaml",
+              "RelativeToolTip": "di.examen.1EV.2025\\Frontend\\Dialogos\\DialogoGestionProductos.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-27T17:24:37.53Z",
+              "WhenOpened": "2025-12-04T18:33:23.487Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\alway\\OneDrive\\Escritorio\\di.examen.1EV.2025\\di.examen.1EV.2025\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "di.examen.1EV.2025\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\alway\\OneDrive\\Escritorio\\di.examen.1EV.2025\\di.examen.1EV.2025\\MainWindow.xaml.cs",
-              "RelativeToolTip": "di.examen.1EV.2025\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAACgAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T20:03:35.139Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DialogoGestionEmpleados.xaml",
-              "DocumentMoniker": "C:\\Users\\alway\\OneDrive\\Escritorio\\di.examen.1EV.2025\\di.examen.1EV.2025\\Frontend\\Dialogos\\DialogoGestionEmpleados.xaml",
-              "RelativeDocumentMoniker": "di.examen.1EV.2025\\Frontend\\Dialogos\\DialogoGestionEmpleados.xaml",
-              "ToolTip": "C:\\Users\\alway\\OneDrive\\Escritorio\\di.examen.1EV.2025\\di.examen.1EV.2025\\Frontend\\Dialogos\\DialogoGestionEmpleados.xaml",
-              "RelativeToolTip": "di.examen.1EV.2025\\Frontend\\Dialogos\\DialogoGestionEmpleados.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-02T19:42:25.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DialogoGestionEmpleados.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\alway\\OneDrive\\Escritorio\\di.examen.1EV.2025\\di.examen.1EV.2025\\Frontend\\Dialogos\\DialogoGestionEmpleados.xaml.cs",
-              "RelativeDocumentMoniker": "di.examen.1EV.2025\\Frontend\\Dialogos\\DialogoGestionEmpleados.xaml.cs",
-              "ToolTip": "C:\\Users\\alway\\OneDrive\\Escritorio\\di.examen.1EV.2025\\di.examen.1EV.2025\\Frontend\\Dialogos\\DialogoGestionEmpleados.xaml.cs",
-              "RelativeToolTip": "di.examen.1EV.2025\\Frontend\\Dialogos\\DialogoGestionEmpleados.xaml.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAowJEAAAAAAAAAAAAAAA==",
+              "Title": "ProductoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\alway\\OneDrive\\Escritorio\\di.examen.1EV.2025\\di.examen.1EV.2025\\Backend\\Repositorios\\ProductoRepository.cs",
+              "RelativeDocumentMoniker": "di.examen.1EV.2025\\Backend\\Repositorios\\ProductoRepository.cs",
+              "ToolTip": "C:\\Users\\alway\\OneDrive\\Escritorio\\di.examen.1EV.2025\\di.examen.1EV.2025\\Backend\\Repositorios\\ProductoRepository.cs",
+              "RelativeToolTip": "di.examen.1EV.2025\\Backend\\Repositorios\\ProductoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T18:53:25.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Empleado.cs",
-              "DocumentMoniker": "C:\\Users\\alway\\OneDrive\\Escritorio\\di.examen.1EV.2025\\di.examen.1EV.2025\\Backend\\Modelos\\Empleado.cs",
-              "RelativeDocumentMoniker": "di.examen.1EV.2025\\Backend\\Modelos\\Empleado.cs",
-              "ToolTip": "C:\\Users\\alway\\OneDrive\\Escritorio\\di.examen.1EV.2025\\di.examen.1EV.2025\\Backend\\Modelos\\Empleado.cs",
-              "RelativeToolTip": "di.examen.1EV.2025\\Backend\\Modelos\\Empleado.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAswDoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T20:33:26.762Z",
+              "WhenOpened": "2025-12-04T18:27:55.403Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "JardineriaContext.cs",
-              "DocumentMoniker": "C:\\Users\\alway\\OneDrive\\Escritorio\\di.examen.1EV.2025\\di.examen.1EV.2025\\Backend\\Modelos\\JardineriaContext.cs",
-              "RelativeDocumentMoniker": "di.examen.1EV.2025\\Backend\\Modelos\\JardineriaContext.cs",
-              "ToolTip": "C:\\Users\\alway\\OneDrive\\Escritorio\\di.examen.1EV.2025\\di.examen.1EV.2025\\Backend\\Modelos\\JardineriaContext.cs",
-              "RelativeToolTip": "di.examen.1EV.2025\\Backend\\Modelos\\JardineriaContext.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAiwCQAAABvAAAAAAAAAA==",
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\alway\\OneDrive\\Escritorio\\di.examen.1EV.2025\\di.examen.1EV.2025\\Backend\\Modelos\\Producto.cs",
+              "RelativeDocumentMoniker": "di.examen.1EV.2025\\Backend\\Modelos\\Producto.cs",
+              "ToolTip": "C:\\Users\\alway\\OneDrive\\Escritorio\\di.examen.1EV.2025\\di.examen.1EV.2025\\Backend\\Modelos\\Producto.cs",
+              "RelativeToolTip": "di.examen.1EV.2025\\Backend\\Modelos\\Producto.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T19:44:39.16Z",
+              "WhenOpened": "2025-12-04T18:26:31.901Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Oficina.cs",
-              "DocumentMoniker": "C:\\Users\\alway\\OneDrive\\Escritorio\\di.examen.1EV.2025\\di.examen.1EV.2025\\Backend\\Modelos\\Oficina.cs",
-              "RelativeDocumentMoniker": "di.examen.1EV.2025\\Backend\\Modelos\\Oficina.cs",
-              "ToolTip": "C:\\Users\\alway\\OneDrive\\Escritorio\\di.examen.1EV.2025\\di.examen.1EV.2025\\Backend\\Modelos\\Oficina.cs",
-              "RelativeToolTip": "di.examen.1EV.2025\\Backend\\Modelos\\Oficina.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAswC0AAAAAAAAAAAAAAA==",
+              "Title": "DialogoGestionEmpleados.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alway\\OneDrive\\Escritorio\\di.examen.1EV.2025\\di.examen.1EV.2025\\Frontend\\Dialogos\\DialogoGestionEmpleados.xaml.cs",
+              "RelativeDocumentMoniker": "di.examen.1EV.2025\\Frontend\\Dialogos\\DialogoGestionEmpleados.xaml.cs",
+              "ToolTip": "C:\\Users\\alway\\OneDrive\\Escritorio\\di.examen.1EV.2025\\di.examen.1EV.2025\\Frontend\\Dialogos\\DialogoGestionEmpleados.xaml.cs",
+              "RelativeToolTip": "di.examen.1EV.2025\\Frontend\\Dialogos\\DialogoGestionEmpleados.xaml.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAmwC0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T20:30:46.551Z",
+              "WhenOpened": "2025-12-04T18:15:09.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DialogoGestionProductos.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alway\\OneDrive\\Escritorio\\di.examen.1EV.2025\\di.examen.1EV.2025\\Frontend\\Dialogos\\DialogoGestionProductos.xaml.cs",
+              "RelativeDocumentMoniker": "di.examen.1EV.2025\\Frontend\\Dialogos\\DialogoGestionProductos.xaml.cs",
+              "ToolTip": "C:\\Users\\alway\\OneDrive\\Escritorio\\di.examen.1EV.2025\\di.examen.1EV.2025\\Frontend\\Dialogos\\DialogoGestionProductos.xaml.cs",
+              "RelativeToolTip": "di.examen.1EV.2025\\Frontend\\Dialogos\\DialogoGestionProductos.xaml.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAQwHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T18:14:42.463Z",
               "EditorCaption": ""
             }
           ]

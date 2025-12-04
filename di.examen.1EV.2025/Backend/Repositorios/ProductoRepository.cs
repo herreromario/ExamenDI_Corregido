@@ -12,9 +12,20 @@ namespace di.examen._1EV._2025.Backend.Repositorios
         {
         }
 
-        // Implementa aquí métodos específicos usando QueryAsync si es necesario.
-        // Ejemplo:
-        // public Task<IEnumerable<Producto>> GetByCategoriaAsync(string categoria)
-        //     => QueryAsync(q => q.Where(p => p.Categoria == categoria));
+        public async Task<bool> CodigoProductoExisteAsync(string codigoProducto)
+        {
+            // Validar entrada
+
+            if (string.IsNullOrWhiteSpace(codigoProducto))
+                return false;
+
+            // Consultar si existe algún producto con el código dado
+            var list = await QueryAsync(
+                q => q.Where(p => p.CodigoProducto == codigoProducto).Take(1)
+            );
+
+            // Retornar true si se encontró al menos un producto
+            return list.Any();
+        }
     }
 }

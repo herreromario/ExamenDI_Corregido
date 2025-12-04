@@ -24,4 +24,10 @@ public partial class Gamasproducto
 
     [InverseProperty("GamaNavigation")]
     public virtual ICollection<Producto> Productos { get; set; } = new List<Producto>();
+
+    public override string ToString()
+    {
+        return Gama;
+    }
+
 }

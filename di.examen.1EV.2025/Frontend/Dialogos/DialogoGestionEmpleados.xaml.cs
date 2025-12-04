@@ -34,11 +34,13 @@ namespace di.examen._1EV._2025.Frontend.Dialogos
         {
             // Cargar oficinas
             List<Oficina> oficinas;
+
             // Crear un nuevo contexto para evitar problemas de concurrencia
             using (var context = new JardineriaContext())
             {
                 // Crear un nuevo repositorio con el nuevo contexto
                 var repo = new OficinaRepository(context);
+
                 // Obtener todas las oficinas
                 oficinas = (List<Oficina>)await repo.GetAllAsync();
             }
@@ -87,16 +89,6 @@ namespace di.examen._1EV._2025.Frontend.Dialogos
             }   
         }
 
-        // Obtener el siguiente código de empleado disponible
-        public async Task<int> GetNextCodigoEmpleadoAsync()
-        {
-            // Obtener el código máximo actual y sumar 1
-            int maxCodigo = await _context.Empleados
-                                          .MaxAsync(e => (int?)e.CodigoEmpleado) ?? 0;
-            return maxCodigo + 1;
-        }
-
-
         private bool ValidarFormulario()
         {
             if (string.IsNullOrWhiteSpace(txtNombre.Text) ||
@@ -128,14 +120,29 @@ namespace di.examen._1EV._2025.Frontend.Dialogos
                 using var context = new JardineriaContext();
                 var repo = new EmpleadoRepository(context);
 
-                Empleado nuevoEmpleado = new Empleado();
+                // 1. Comprobar extensión duplicada
+                bool extensionExiste = await repo.ExtensionExistsAsync(txtExtension.Text.Trim());
+                if (extensionExiste)
+                {
+                    MessageBox.Show("La extensión ya existe. Por favor, utiliza una extensión diferente.",
+                                    "Aviso",
+                                    MessageBoxButton.OK,
+                                    MessageBoxImage.Warning);
+                    return;
+                }
 
+                // 2. Crear nuevo empleado y recoger datos del formulario
+
+                Empleado nuevoEmpleado = new Empleado();
                 RecogerDatosEmpleado(nuevoEmpleado);
 
-                // Asignar el siguiente código de empleado disponible
-                nuevoEmpleado.CodigoEmpleado = await GetNextCodigoEmpleadoAsync();
+                // 3. Obtener el siguiente código de empleado disponible
 
-                // Añadir el nuevo empleado a la base de datos
+                int ultimoCodigo = await repo.GetLastCodigoEmpleadoAsync();
+                nuevoEmpleado.CodigoEmpleado = ultimoCodigo + 1;
+
+                // 4. Guardar el nuevo empleado en la base de datos
+
                 await repo.AddAsync(nuevoEmpleado);
                 context.SaveChanges();
 
@@ -144,7 +151,7 @@ namespace di.examen._1EV._2025.Frontend.Dialogos
                                 MessageBoxButton.OK,
                                 MessageBoxImage.Information);
 
-                // Cerrar el diálogo con resultado positivo
+                
                 DialogResult = true;
                 Close();
             }
